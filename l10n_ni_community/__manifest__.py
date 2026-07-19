@@ -12,4 +12,6 @@
         "data/res_country_data.xml",
     ],
     "installable": True,
+    "author": "Juan Romero",
+    "website": "https://github.com/Jromero97/odoo-accounting-ni"
 }
