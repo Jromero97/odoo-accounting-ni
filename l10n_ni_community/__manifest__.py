@@ -8,8 +8,11 @@
         "l10n_latam_base",
     ],
     "data": [
+        "security/ir.model.access.csv",
         "data/l10n_latam_identification_type_data.xml",
         "data/res_country_data.xml",
+        "data/account_tax_report_data.xml",
+        "wizards/l10n_ni_tax_report_wizard_views.xml",
     ],
     "installable": True,
     "author": "Juan Romero",

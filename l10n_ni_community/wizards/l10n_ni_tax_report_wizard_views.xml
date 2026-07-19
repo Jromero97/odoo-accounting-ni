@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="l10n_ni_tax_report_wizard_form" model="ir.ui.view">
+        <field name="name">l10n_ni.tax.report.wizard.form</field>
+        <field name="model">l10n_ni.tax.report.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="date_from"/>
+                    <field name="date_to"/>
+                </group>
+                <button name="action_compute" string="Calcular" type="object" class="btn-primary"/>
+                <group>
+                    <field name="base_iva_15"/>
+                    <field name="base_exent"/>
+                    <field name="base_exports"/>
+                    <field name="fiscal_debit_iva"/>
+                    <field name="fiscal_credit_iva"/>
+                </group>
+            </form>
+        </field>
+    </record>
+    <record id="l10n_ni_tax_report_wizard_action" model="ir.actions.act_window">
+        <field name="name">Reporte de Impuestos - Formulario 124</field>
+        <field name="res_model">l10n_ni.tax.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+    <menuitem id="l10n_ni_tax_report_wizard_menuitem" name="Reporte de Impuestos (NI)" action="l10n_ni_tax_report_wizard_action" parent="account.menu_finance_reports" sequence="1"/>
+</odoo>

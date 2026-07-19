@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="ni_account_report" model="account.report">
+        <field name="name">Reporte de Cuentas - NI</field>
+        <field name="root_report_id" ref="account.generic_tax_report"/>
+        <field name="country_id" ref="base.ni"/>
+        <field name="column_ids">
+            <record id="ni_balance_column" model="account.report.column">
+                <field name="name">Balance</field>
+                <field name="expression_label">balance</field>
+            </record>
+        </field>
+        <field name="line_ids">
+            <record id="ni_balance_iva_line" model="account.report.line">
+                <field name="name">Balance - Base IVA 15%</field>
+                <field name="expression_ids">
+                    <record id="ni_base_iva_expression" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">Base IVA 15%</field>
+                    </record>
+                </field>
+            </record>
+            <record id="ni_fiscal_debit_iva_line" model="account.report.line">
+                <field name="name">Balance - Debito Fiscal IVA</field>
+                <field name="expression_ids">
+                    <record id="ni_fiscal_debit_iva_expression" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">Debito Fiscal IVA</field>
+                    </record>
+                </field>
+            </record>
+            <record id="ni_fiscal_credit_iva_line" model="account.report.line">
+                <field name="name">Balance - Credito Fiscal IVA</field>
+                <field name="expression_ids">
+                    <record id="ni_fiscal_credit_iva_expression" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">Credito Fiscal IVA</field>
+                    </record>
+                </field>
+            </record>
+            <record id="ni_base_exent_line" model="account.report.line">
+                <field name="name">Balance - Base Exenta</field>
+                <field name="expression_ids">
+                    <record id="ni_base_exent_expression" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">Base Exenta</field>
+                    </record>
+                </field>
+            </record>
+            <record id="ni_base_export_iva_line" model="account.report.line">
+                <field name="name">Balance - Base Exportaciones</field>
+                <field name="expression_ids">
+                    <record id="ni_base_export_expression" model="account.report.expression">
+                        <field name="label">balance</field>
+                        <field name="engine">tax_tags</field>
+                        <field name="formula">Base Exportaciones</field>
+                    </record>
+                </field>
+            </record>
+        </field>
+    </record>
+</odoo>
