@@ -9,6 +9,7 @@
     ],
     "data": [
         "data/l10n_latam_identification_type_data.xml",
+        "data/res_country_data.xml",
     ],
     "installable": True,
 }

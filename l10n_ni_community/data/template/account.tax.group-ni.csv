@@ -1,0 +1,4 @@
+id,name,country_id,tax_payable_account_id,tax_receivable_account_id
+ni_iva_group_15,IVA 15%,base.ni,ni_2102,ni_1106
+ni_iva_group_0,IVA 0% (Exento),base.ni,ni_2102,ni_1106
+ni_ret_ir_group,Retenciones IR,base.ni,ni_2102,ni_2102

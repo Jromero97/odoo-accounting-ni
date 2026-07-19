@@ -1,0 +1,25 @@
+id,name,amount,amount_type,type_tax_use,tax_group_id,repartition_line_ids/repartition_type,repartition_line_ids/document_type,repartition_line_ids/account_id
+ni_iva,IVA por Ventas,15.0,percent,sale,ni_iva_group_15,base,invoice,
+,,,,,,tax,invoice,ni_2102
+,,,,,,base,refund,
+,,,,,,tax,refund,ni_2102
+ni_iva_exent,Exento Local,0.0,percent,sale,ni_iva_group_0,base,invoice,
+,,,,,,tax,invoice,
+,,,,,,base,refund,
+,,,,,,tax,refund,
+ni_iva_export,Exportaciones (Tasa 0%),0.0,percent,sale,ni_iva_group_0,base,invoice,
+,,,,,,tax,invoice,
+,,,,,,base,refund,
+,,,,,,tax,refund,
+ni_ret_ir,Retenciones IR Proveedores,-2.0,percent,purchase,ni_ret_ir_group,base,invoice,
+,,,,,,tax,invoice,ni_2102
+,,,,,,base,refund,
+,,,,,,tax,refund,ni_2102
+ni_ret_ir_prof_serv,Retenciones IR Servicios Profesionales,-10.0,percent,purchase,ni_ret_ir_group,base,invoice,
+,,,,,,tax,invoice,ni_2102
+,,,,,,base,refund,
+,,,,,,tax,refund,ni_2102
+ni_ret_ir_rentals,Retenciones IR Alquileres,-10.0,percent,purchase,ni_ret_ir_group,base,invoice,
+,,,,,,tax,invoice,ni_2102
+,,,,,,base,refund,
+,,,,,,tax,refund,ni_2102
