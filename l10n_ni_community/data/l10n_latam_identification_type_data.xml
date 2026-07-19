@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo noupdate="1">
+    <record id="lit_ruc" model="l10n_latam.identification.type">
+        <field name="name">RUC</field>
+        <field name="country_id" ref="base.ni"/>
+        <field name="is_vat">True</field>
+    </record>
+    <record id="lit_dni" model="l10n_latam.identification.type">
+        <field name="name">Cédula</field>
+        <field name="country_id" ref="base.ni"/>
+        <field name="is_vat">False</field>
+    </record>
+    <record id="lit_passport" model="l10n_latam.identification.type">
+        <field name="name">Pasaporte</field>
+        <field name="is_vat">False</field>
+    </record>
+</odoo>

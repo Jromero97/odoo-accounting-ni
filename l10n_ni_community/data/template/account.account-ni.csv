@@ -1,0 +1,31 @@
+id,name,code,account_type,reconcile
+ni_1101,Efectivo y Equivalentes de Efectivo,1101,asset_cash,False
+ni_1102,Cuentas por Cobrar Comerciales,1102,asset_receivable,True
+ni_1103,Estimacion por Incobrables,1103,asset_current,False
+ni_1104,Inventarios,1104,asset_current,False
+ni_1105,Gastos Pagados Por Anticipado,1105,asset_current,False
+ni_1106,IVA Acreditable,1106,asset_current,False
+ni_1201,"Propiedad, Planta y Equipo",1201,asset_fixed,False
+ni_1202,Depreciación,1202,asset_fixed,False
+ni_1203,Activos Intangibles,1203,asset_non_current,False
+ni_1204,Inversiones a Largo Plazo,1204,asset_non_current,False
+ni_2101,Cuentas por Pagar Comerciales,2101,liability_payable,True
+ni_2102,Impuestos por Pagar (IVA/IR),2102,liability_current,False
+ni_2103,Retenciones por Pagar,2103,liability_current,False
+ni_2104,INSS Patronal por Pagar,2104,liability_current,False
+ni_2105,Beneficios a Empleados por Pagar,2105,liability_current,False
+ni_2106,Préstamos Bancarios a Corto Plazo,2106,liability_current,False
+ni_2201,Préstamos Bancarios a Largo Plazo,2201,liability_non_current,False
+ni_2202,Provisiones a Largo Plazo,2202,liability_non_current,False
+ni_3101,Capital Social,3101,equity,False
+ni_3102,Reservas,3102,equity,False
+ni_3103,Resultados Acumulados,3103,equity,False
+ni_3104,Resultados del Ejercicio,3104,equity,False
+ni_4101,Ingresos por Ventas,4101,income,False
+ni_4102,Devoluciones y Descuentos s/Ventas,4102,income,False
+ni_4103,Otros Ingresos,4103,income_other,False
+ni_5101,Costo de Ventas,5101,expense_direct_cost,False
+ni_6101,Gastos de Ventas,6101,expense,False
+ni_6102,Gastos de Administración,6102,expense,False
+ni_6103,Gastos Financieros,6103,expense,False
+ni_6104,Impuesto sobre la Renta,6104,expense,False

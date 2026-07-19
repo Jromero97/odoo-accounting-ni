@@ -1,0 +1,11 @@
+id,name,code_prefix_start,code_prefix_end
+group_activo,ACTIVO,1,1
+group_activo_corriente,ACTIVO CORRIENTE,11,11
+group_activo_no_corriente,ACTIVO NO CORRIENTE,12,12
+group_pasivo,PASIVO,2,2
+group_pasivo_corriente,PASIVO CORRIENTE,21,21
+group_pasivo_no_corriente,PASIVO NO CORRIENTE,22,22
+group_patrimonio,PATRIMONIO,3,3
+group_ingresos,INGRESOS,4,4
+group_costos,COSTOS,5,5
+group_gastos,GASTOS,6,6
