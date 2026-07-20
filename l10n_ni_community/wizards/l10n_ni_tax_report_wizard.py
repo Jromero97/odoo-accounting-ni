@@ -3,15 +3,15 @@ from odoo import models, api, fields
 class TaxReportWizard(models.TransientModel):
     _name = 'l10n_ni.tax.report.wizard'
     _description = 'Reporte de Impuestos - Formulario 124'
-    date_from = fields.Date(required=True)
-    date_to = fields.Date(required=True)
-    company = fields.Many2one('res.company', default=lambda self: self.env.company)
-    currency_id = fields.Many2one('res.currency', related='company.currency_id')
-    base_iva_15 = fields.Monetary(readonly=True)
-    base_exent = fields.Monetary(readonly=True)
-    base_exports = fields.Monetary(readonly=True)
-    fiscal_debit_iva = fields.Monetary(readonly=True)
-    fiscal_credit_iva = fields.Monetary(readonly=True)
+    date_from = fields.Date(required=True, string='Fecha de inicio')
+    date_to = fields.Date(required=True, string='Fecha de término')
+    company = fields.Many2one('res.company', default=lambda self: self.env.company, string='Empresa')
+    currency_id = fields.Many2one('res.currency', related='company.currency_id', string='Moneda')
+    base_iva_15 = fields.Monetary(readonly=True, string='IVA Base (15%)')
+    base_exent = fields.Monetary(readonly=True, string='IVA Base (Exenta)')
+    base_exports = fields.Monetary(readonly=True, string='IVA Base (Exportaciones)')
+    fiscal_debit_iva = fields.Monetary(readonly=True, string='Débito Fiscal IVA')
+    fiscal_credit_iva = fields.Monetary(readonly=True, string='Crédito Fiscal IVA')
 
     def _get_tag_balance(self, tag_name):
         tags = self.env['account.account.tag'].search([('name', 'in', [f'+{tag_name}', f'-{tag_name}']), ('applicability', '=', 'taxes'), ('country_id', '=', self.env.ref('base.ni').id)])

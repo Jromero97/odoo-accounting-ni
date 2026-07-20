@@ -1,0 +1,167 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ni_community
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-19 22:44+0000\n"
+"PO-Revision-Date: 2026-07-19 22:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ni_community
+#: model:ir.model,name:l10n_ni_community.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:account.report.column,name:l10n_ni_community.ni_balance_column
+msgid "Balance"
+msgstr "Balance"
+
+#. module: l10n_ni_community
+#: model:account.report.line,name:l10n_ni_community.ni_base_exent_line
+msgid "Balance - Base Exenta"
+msgstr "Balance - Exempt Base"
+
+#. module: l10n_ni_community
+#: model:account.report.line,name:l10n_ni_community.ni_base_export_iva_line
+msgid "Balance - Base Exportaciones"
+msgstr "Balance - Exportation Base"
+
+#. module: l10n_ni_community
+#: model:account.report.line,name:l10n_ni_community.ni_balance_iva_line
+msgid "Balance - Base IVA 15%"
+msgstr "Balance - Base VAT 15%"
+
+#. module: l10n_ni_community
+#: model:account.report.line,name:l10n_ni_community.ni_fiscal_credit_iva_line
+msgid "Balance - Credito Fiscal IVA"
+msgstr "Balance - Input VAT"
+
+#. module: l10n_ni_community
+#: model:account.report.line,name:l10n_ni_community.ni_fiscal_debit_iva_line
+msgid "Balance - Debito Fiscal IVA"
+msgstr "Balance - Output VAT"
+
+#. module: l10n_ni_community
+#: model_terms:ir.ui.view,arch_db:l10n_ni_community.l10n_ni_tax_report_wizard_form
+msgid "Calcular"
+msgstr "Calculate"
+
+#. module: l10n_ni_community
+#: model:ir.model,name:l10n_ni_community.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__fiscal_credit_iva
+msgid "Crédito Fiscal IVA"
+msgstr "Input VAT"
+
+#. module: l10n_ni_community
+#: model:l10n_latam.identification.type,name:l10n_ni_community.lit_dni
+msgid "Cédula"
+msgstr "National ID"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__fiscal_debit_iva
+msgid "Débito Fiscal IVA"
+msgstr "Output VAT"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__company
+msgid "Empresa"
+msgstr "Company"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__date_from
+msgid "Fecha de inicio"
+msgstr "Start Date"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__date_to
+msgid "Fecha de término"
+msgstr "End Date"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__base_iva_15
+msgid "IVA Base (15%)"
+msgstr "Base VAT (15%)"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__base_exent
+msgid "IVA Base (Exenta)"
+msgstr "Base VAT (Exempt)"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__base_exports
+msgid "IVA Base (Exportaciones)"
+msgstr "Base VAT (Exportation)"
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_ni_community
+#: model:ir.model.fields,field_description:l10n_ni_community.field_l10n_ni_tax_report_wizard__currency_id
+msgid "Moneda"
+msgstr "Currency"
+
+#. module: l10n_ni_community
+#: model:l10n_latam.identification.type,name:l10n_ni_community.lit_passport
+msgid "Pasaporte"
+msgstr "Passport"
+
+#. module: l10n_ni_community
+#: model:l10n_latam.identification.type,name:l10n_ni_community.lit_ruc
+msgid "RUC"
+msgstr "RUC"
+
+#. module: l10n_ni_community
+#: model:account.report,name:l10n_ni_community.ni_account_report
+msgid "Reporte de Cuentas - NI"
+msgstr "Accounts Report - NI"
+
+#. module: l10n_ni_community
+#: model:ir.ui.menu,name:l10n_ni_community.l10n_ni_tax_report_wizard_menuitem
+msgid "Reporte de Impuestos (NI)"
+msgstr "Tax Report (NI)"
+
+#. module: l10n_ni_community
+#: model:ir.actions.act_window,name:l10n_ni_community.l10n_ni_tax_report_wizard_action
+#: model:ir.model,name:l10n_ni_community.model_l10n_ni_tax_report_wizard
+msgid "Reporte de Impuestos - Formulario 124"
+msgstr "Tax Report - Form 124"
